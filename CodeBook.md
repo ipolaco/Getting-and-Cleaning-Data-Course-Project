@@ -51,11 +51,21 @@ or:
   <li>tBodyAcc-mean()-X --> tBodyAccMeanX</li>
 </ul> 
 
-
-
-
-
-
-
-
-
+<h2> Output </h2>
+The R script run_analysis.R generates the following two data files:
+<ul>
+  <li>'ProcessedData.txt': Contains the desired data (10,299 observations of the 68 variables). The first two variables contain the subject ID number and the specific activity. The other 66 variables correspond to the different values of the mean and standard deviation obtained for the different features.</li>
+  <li>'TidyAveragesData.txt': Contains the desired data of averages (180 observations of the 68 variables). The first two variables contain the subject ID number and the specific activity. The other 66 variables correspond to the average of each variable for each subject and each activity.</li>
+</ul> 
+Note that the activity names have been changed in the same way for both output files, for example:
+<ul>
+  <li>STANDING --> Standing</li>
+</ul> 
+But the feature names follow the distinction previously shown:
+<ul>
+  <li>tBodyAcc-mean()-X --> tBodyAcc-mean-X</li> for 'ProcessedData.txt'.
+</ul> 
+or:
+<ul>
+  <li>tBodyAcc-mean()-X --> tBodyAccMeanX</li> for 'TidyAveragesData.txt'.
+</ul> 
