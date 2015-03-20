@@ -64,8 +64,5 @@ Note that the activity names have been changed in the same way for both output f
 But the feature names follow the distinction previously shown:
 <ul>
   <li>tBodyAcc-mean()-X --> tBodyAcc-mean-X</li> for 'ProcessedData.txt'.
-</ul> 
-or:
-<ul>
   <li>tBodyAcc-mean()-X --> tBodyAccMeanX</li> for 'TidyAveragesData.txt'.
 </ul> 
