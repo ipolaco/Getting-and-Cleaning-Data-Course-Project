@@ -11,4 +11,4 @@ The R script run_analysis.R has been created following the project instructions:
 As a result, the script process the initial data (collected from the accelerometers from the Samsung Galaxy S smartphone) generating two files:
 
 1. ProcessedData.txt: Contains the desired data (measurements of mean and standard deviation) for each subject and activity.
-2. TidyAveragesData.txt: Contains the data corresponding to the average for each subject and activity
+2. TidyAveragesData.txt: Contains the data corresponding to the average for each subject and activity.
